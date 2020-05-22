@@ -1,0 +1,26 @@
+.svg-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.rating-eg {
+  display: inline-block;
+}
+
+.rating {
+  width: 150px;
+  .bg-rect {
+    fill: rgb(255, 187, 0);
+  }
+  
+  .rating-rect {
+    fill: rgb(255, 187, 0);
+  }
+}
+
+.text-rating{
+  width: 100%;
+  display: flex;
+  justify-content: center
+}

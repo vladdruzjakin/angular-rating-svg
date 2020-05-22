@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="raiting">
+     <app-raiting [raiting]='raiting'></app-raiting>
+  </div>
+  <div class="container-btn mt-4">
+    <button type="button" class="btn btn-danger m-1" (click)="setRating(0)">Reset</button>
+    <button type="button" class="btn btn-dark m-1" (click)="setRating(1.4)">1.4</button>
+    <button type="button" class="btn btn-dark m-1" (click)="setRating(3.3)">3.3</button>
+     <button type="button" class="btn btn-dark m-1" (click)="setRating(4.6)">4.6</button>
+  </div>
+</div>

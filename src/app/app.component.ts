@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.scss' ]
 })
 export class AppComponent  {
-  name = 'Angular';
+  public raiting: number;
+
+  constructor() {
+    this.raiting = 0;
+  }
+
+  public setRating(rat) {
+    this.raiting = rat;
+  }
 }
