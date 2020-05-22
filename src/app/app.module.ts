@@ -3,12 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { RaitingComponent } from './raiting/raiting.component';
-
-
+import { RatingModule } from './raiting/raiting.module';
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, RaitingComponent ],
+  imports:      [ BrowserModule, FormsModule, RatingModule ],
+  declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
